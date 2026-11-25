@@ -1,0 +1,39 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+project:
+  id: 91afce94-bfdd-4622-a718-67b086c2e895
+  title: Vorlesung Mathematik II
+
+  github: https://github.com/github-mathe/Mathematik_II
+
+  binder: https://mybinder.org/v2/gh/github-mathe/Mathematik_II/main?urlpath=lab/tree/
+
+
+  static_files:
+    - Videos
+
+
+  jupyter:
+    lite: true
+
+  toc:    
+
+    - file: Willkommen_II.ipynb
+      title: Willkommen
+
+
+
+
+
+site:
+  template: book-theme
+
+  actions:
+    - title: In Binder öffnen
+      url: https://mybinder.org/v2/gh/github-mathe/Mathematik_II/main?urlpath=lab/tree/
+
+  options:
+    hide_title_block: true
+    style: ./custom.css
+    outline_maxdepth: 2
